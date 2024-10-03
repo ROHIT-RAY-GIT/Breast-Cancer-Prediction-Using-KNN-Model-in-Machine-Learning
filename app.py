@@ -21,6 +21,7 @@ def set_background(png_file):
     /* Set text color to black for all text elements */
     h1, h2, h3, h4, h5, h6, p, span, div, label {{
         color: white;
+        text-align: center; /* Center align text */
     }}
     .stButton > button {{
         background-color: #4C4C6D; /* Button color */
@@ -57,7 +58,9 @@ set_background(image_base64)
 st.title("Breast Cancer Prediction")
 
 st.markdown("""
-    <p style="text-align: center; font-size: 18px;">Input the following tumor characteristics and click <strong>Predict</strong> to determine whether the tumor is benign or malignant.</p>
+    <div style="text-align: center;">
+        <p style="font-size: 18px;">Input the following tumor characteristics and click <strong>Predict</strong> to determine whether the tumor is benign or malignant.</p>
+    </div>
     """, unsafe_allow_html=True)
 
 # Input fields for the features on the main screen
