@@ -67,3 +67,8 @@ Matplotlib and Seaborn: For data visualization
 Hyperparameter Tuning: Exploring advanced techniques like Grid Search for optimizing hyperparameters.
 Cross-validation: Implementing k-fold cross-validation for more robust model evaluation.
 Deployment: Deploying the Streamlit app on a cloud platform for broader accessibility.
+
+
+Here is the link for the Streamlit GUI for Pulsar Classification:
+
+[Breast Cancer Prediction System](https://breast-cancer-prediction-using-knn-model-in-machine-learning.streamlit.app/)
